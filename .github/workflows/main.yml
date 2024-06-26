@@ -8,4 +8,3 @@ jobs:
         uses: actions/checkout@v3
       - name: Run Feed Generator
         uses: jarredstumberg/podcast-generator@main
-    
