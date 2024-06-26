@@ -3,7 +3,7 @@ on: [push] #when someone pushes a change onto main branch in repository it will 
 jobs:
   build: 
     runs-on: ubuntu-latest
-    steps:
+    steps
       - name: Checkout Repo
         uses: actions/checkout@v3
       - name: Run Feed Generator
